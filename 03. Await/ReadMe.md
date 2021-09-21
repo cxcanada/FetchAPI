@@ -1,6 +1,6 @@
 # Await
 
->[Await in 7 minutes](https://www.youtube.com/watch?v=V_Kr9OSfDeU)
+>[Await from Web Dev Simplified](https://www.youtube.com/watch?v=V_Kr9OSfDeU)
 
 >[W3School on Await](https://www.w3schools.com/js/js_async.asp)
 

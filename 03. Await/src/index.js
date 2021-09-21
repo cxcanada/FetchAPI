@@ -1,7 +1,7 @@
-console.log("Connected!")
+console.log("Await Connected!")
 
 
-function makeRequest(location){
+function makeRequest(location) {
     return new Promise((resolve, reject) => {
         if (location == "Google")
             resolve("Google says Hi")
@@ -10,7 +10,7 @@ function makeRequest(location){
     })
 }
 
-function processRequest(response){
+function processRequest(response) {
     return new Promise((resolve, reject) => {
         console.log("Processing Request...")
         resolve(`Extra information + ${response}.`)
@@ -28,19 +28,17 @@ function processRequest(response){
 // })
 
 //using async function and await keyword.
-async function doWork(){
-    try{
+async function doWork() {
+    try {
         const response = await makeRequest("Google")
         console.log(`This is the direct resolve message from makeRequest + ${response}`)
         console.log("Response Received")
         const processedRequest = await processRequest(response) // This will print "Processing Request" since console.log() is before the await kicks off
         console.log(processedRequest)
-    }
-    catch (err){
+    } catch (err) {
         console.log(err)
     }
 
 }
 
 doWork()
-

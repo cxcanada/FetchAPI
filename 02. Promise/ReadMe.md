@@ -1,6 +1,6 @@
 # Promise
 
->[Promises in 10 minutes](https://www.youtube.com/watch?v=DHvZLI7Db8E)
+>[Promises from Web Dev Simplified](https://www.youtube.com/watch?v=DHvZLI7Db8E)
 
 >[W3School on Promise](https://www.w3schools.com/js/js_promise.asp)
 
