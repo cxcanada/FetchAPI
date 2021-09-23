@@ -68,3 +68,27 @@ xhttp.onreadystatechange = function() {
 };
 xhttp.open("GET", "people.json", true);
 xhttp.send();
+
+
+
+/* Get data from fetch(url) */
+var p = fetch('https://jsonplaceholder.typicode.com/todos/1')
+    .then(res => res.json())
+    .then(data => console.log(data))
+
+
+/* Data Fetcher Function */
+const dataFetcher = async function(url = null) {
+    const data = fetch(url)
+        .then(res => res.json())
+        .then(data => data) //.then(data => console.log(data))
+    return data
+}
+
+/* Data Fetcher with await */
+// same purpose done in async/await
+// const dataFetcher = async function(url = null) {
+//     const res = await fetch(url)
+//     const data = await res.json()
+//     return data
+// }

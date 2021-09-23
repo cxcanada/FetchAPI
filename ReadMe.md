@@ -5,6 +5,9 @@
 
 > [Await](./03.%20Await/ReadMe.md)
 
+> [JSON](./04/../04.%20JSON/ReadMe.md)
+
+
 ## Note
 This folder contains self-learening notes on Fetch API and related resources, including Youtube Video tutorial links and online docs.
 
